@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <React.Fragment>
-        <h2>Practical ReactJS, TypeScript &amp; Bootstrap.</h2>
+      <div className='heading-content'>
+        <h2 className='rtb'>ReactJS &bull; TypeScript &bull; Bootstrap</h2>
+        <h5 className='rtb'>A demonstration of a practical use of ReactJS, TypeScript &amp; Bootstrap.</h5>
+      </div>
     </React.Fragment>
   );
 }
