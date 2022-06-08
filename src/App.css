@@ -3,7 +3,7 @@ body {
 }
 
 .heading-content {
-    text-align: center;
+text-align: center;
   margin: auto;
   width: 90%;
   border: 3px solid green;
@@ -13,6 +13,6 @@ body {
 .rtb {
   margin-left: 30%;
   margin-right: 30%;
-  color: green;
+  /* color: green; */
   font-family: Calibri, sans-serif;
 }
