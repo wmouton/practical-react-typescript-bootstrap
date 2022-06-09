@@ -31,7 +31,7 @@ function App() {
 
           <div className="row">
             <div className="col">
-              <VisitorClass />
+              <VisitorClass rank={98} name={'Cloud'} title={'Liberator'} />
             </div>
           </div>
         </div>

@@ -6,14 +6,5 @@
 .heading-content {
   margin-top: 10px;
   text-align: center;
-  margin: auto;
   width: 100%;
-  padding: 10px !important;
-}
-
-.rtb {
-  margin-left: 30%;
-  margin-right: 30%;
-  /* color: green; */
-  font-family: Calibri, sans-serif;
 }
