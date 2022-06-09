@@ -4,10 +4,10 @@
 } */
 
 .heading-content {
+  margin-top: 10px;
   text-align: center;
   margin: auto;
-  width: 90%;
-  border: 3px solid green;
+  width: 100%;
   padding: 10px !important;
 }
 
