@@ -15,6 +15,7 @@ export class VisitorClass extends React.Component<
   VisClassProps,
   VisClassState
 > {
+  // eslint-disable-next-line
   constructor(props: VisClassProps) {
     super(props);
   }
