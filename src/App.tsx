@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Customer from './components/Customer';
+import Visitor from './components/Visitor';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           </div>
           <div className="row">
             <div className="col">
-              <Customer rank={99} name={'Sephiroth'} title={'Destroyer'} />
+              <Visitor rank={99} name={'Sephiroth'} title={'Destroyer'} />
             </div>
           </div>
         </div>
