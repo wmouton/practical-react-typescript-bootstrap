@@ -15,7 +15,7 @@ function App() {
                 ReactJS &bull; TypeScript &bull; Bootstrap
               </p>
               <p className='fst-italic'>
-                A demonstration of a practical use of ReactJS, TypeScript &amp;
+                A practical use of ReactJS, TypeScript &amp;
                 Bootstrap.
               </p>
               <button className='btn btn-success btn-sm'>
