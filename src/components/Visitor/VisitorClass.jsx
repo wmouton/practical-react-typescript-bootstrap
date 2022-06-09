@@ -11,7 +11,7 @@ export class VisitorClass extends React.Component<VisClassProps, VisClassState> 
     render() {
         return (
             <React.Fragment>
-                <h3>Visitor From Another Realm Class Component</h3>
+                <h3>Visitor Class Component</h3>
             </React.Fragment>
         )
     }
