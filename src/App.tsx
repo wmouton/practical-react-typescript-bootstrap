@@ -3,7 +3,7 @@ import './App.css';
 import Visitor from './components/Visitor/Visitor';
 import { VisitorClass } from './components/Visitor/VisitorClass';
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       <i className='fa fa-code fa-5x heading-content' />
