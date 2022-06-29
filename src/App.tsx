@@ -28,7 +28,6 @@ const App = () => {
               <Visitor rank={99} name={'Sephiroth'} title={'Destroyer'} />
             </div>
           </div>
-
           <div className="row">
             <div className="col">
               <VisitorClass rank={98} name={'Cloud'} title={'Liberator'} />
