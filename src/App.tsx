@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Employee from './components/Company/Employee/Employee';
+import {EmployeeClass} from "./components/EmployeeClass/EmployeeClass";
 // import Customer from './components/Company/Customer/Customer';
 // import { CustomerClass } from './components/Company/CustomerClass/CustomerClass';
 
@@ -42,6 +43,11 @@ const App = () => {
           <div className='row'>
             <div className='col'>
               <Employee />
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <EmployeeClass />
             </div>
           </div>
 
