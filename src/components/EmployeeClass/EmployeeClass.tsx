@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface EProps{
-    name: string;
-    age: number;
-    title: string;
-}
+interface EProps{}
 interface EState{
     name: string;
     age: number;
@@ -13,24 +9,24 @@ interface EState{
 
 export class EmployeeClass extends React.Component<EProps, EState> {
     constructor(props:EProps) {
-        const employeeObj = {name: 'Jack Renal', age: 25, title: 'Web Designer'}
-
         super(props);
+        let employeeObj = {name: 'Jack Renal', age: 25, title: 'Web Designer'};
         this.state = employeeObj as EState
     }
 
     render() {
+        const {name, age, title} = this.state;
         return (
             <>
             <h3>Employee Class</h3>
                 <li className='list-group-item'>
-                    Name: {this.state.name}
+                    Name: {name}
                 </li>
                 <li className='list-group-item'>
-                    Age: {this.state.age}
+                    Age: {age}
                 </li>
                 <li className='list-group-item'>
-                    Title: {this.state.title}
+                    Title: {title}
                 </li>
             </>
         )
