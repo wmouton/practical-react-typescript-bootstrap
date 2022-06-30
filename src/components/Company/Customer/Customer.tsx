@@ -1,23 +1,23 @@
 import React from 'react';
 
-interface VisitorProps {
-  rank: number;
+interface CustomerProps {
   name: string;
+  age: number;
   title: string;
 }
 
-const Visitor: React.FC<VisitorProps> = ({ rank, name, title }) => {
+const Customer: React.FC<CustomerProps> = ({ name, age, title }) => {
   
   return (
     <React.Fragment>
-      <h2>Visitors From Another Realm</h2>
+      <h2>Customer From Company X</h2>
       <ul>
-          <li className="list-group-item">Rank: {rank}</li>
           <li className="list-group-item">Name: {name}</li>
+          <li className="list-group-item">Age: {age}</li>
           <li className="list-group-item">Title: {title}</li>
       </ul>
     </React.Fragment>
   );
 };
 
-export default Visitor;
+export default Customer;

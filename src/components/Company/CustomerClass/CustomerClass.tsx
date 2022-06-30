@@ -1,33 +1,33 @@
 import React from 'react';
 
-interface VisClassState {
-  rank: number;
+interface CustomerClassState {
   name: string;
+  age: number;
   title: string;
 }
-interface VisClassProps {
-  rank: number;
+interface CustomerClassProps {
   name: string;
+  age: number;
   title: string;
 }
 
-export class VisitorClass extends React.Component<
-  VisClassProps,
-  VisClassState
+export class CustomerClass extends React.Component<
+  CustomerClassState,
+  CustomerClassState
 > {
   // eslint-disable-next-line
-  constructor(props: VisClassProps) {
+  constructor(props: CustomerClassProps) {
     super(props);
   }
 
   render() {
-    const { rank, name, title } = this.props;
+    const { name, age, title } = this.props;
     return (
       <React.Fragment>
         <h3>Visitor Class Component</h3>
         <ul>
-          <li className='list-group-item'>Rank: {rank}</li>
           <li className='list-group-item'>Name: {name}</li>
+          <li className='list-group-item'>Age: {age}</li>
           <li className='list-group-item'>Title: {title}</li>
         </ul>
       </React.Fragment>

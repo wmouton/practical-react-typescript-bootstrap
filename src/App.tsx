@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Visitor from './components/Visitor/Visitor';
-import { VisitorClass } from './components/Visitor/VisitorClass';
+import Customer from './components/Company/Customer/Customer';
+import { CustomerClass } from './components/Company/CustomerClass/CustomerClass';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
         <div className='grid'>
           <div className='row'>
             <div className='col'>
+
               <p className='h3 fw-bold text-success'>
                 ReactJS &bull; TypeScript &bull; Bootstrap
               </p>
@@ -18,21 +19,25 @@ const App = () => {
                 A practical use of ReactJS, TypeScript &amp;
                 Bootstrap.
               </p>
+
               <button className='btn btn-success btn-sm'>
                 <i className='fa fa-book' /> Read More
               </button>
+
             </div>
           </div>
+
           <div className='row'>
             <div className='col'>
-              <Visitor rank={99} name={'Sephiroth'} title={'Destroyer'} />
+              <Customer name={'John Doe'} age={23} title={'CEO'} />
             </div>
           </div>
           <div className="row">
             <div className="col">
-              <VisitorClass rank={98} name={'Cloud'} title={'Liberator'} />
+              <CustomerClass name={'Sam Smith'} age={32} title={'CTO'} />
             </div>
           </div>
+
         </div>
       </div>
     </React.Fragment>
