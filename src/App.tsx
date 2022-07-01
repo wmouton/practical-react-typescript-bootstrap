@@ -14,20 +14,19 @@ const App = () => {
           <div className='row'>
             <div className='col'>
 
-              <p className='h3 fw-bold text-success'>
+              <p className='h3 fw-bold text-primary'>
                 ReactJS &bull; TypeScript &bull; Bootstrap
               </p>
-              <p className='fst-italic text-success'>
+              <p className='fst-italic text-primary'>
                 A practical use of ReactJS, TypeScript &amp;
                 Bootstrap.
               </p>
-
               <button className='btn btn-success btn-sm'>
                 <i className='fa fa-book' /> Read More
               </button>
-
             </div>
           </div>
+          <br/>
 
           {/*<div className='row'>
             <div className='col'>

@@ -8,9 +8,9 @@ interface EState {
 }
 
 const Employee: FC<EProps> = () => {
-
     const initialState = {name: 'James Samson', age: 22, title: 'Web Developer'}
     const [employee] = useState<EState>(initialState);
+
     return (
         <>
         <h3>Company Employee</h3>
