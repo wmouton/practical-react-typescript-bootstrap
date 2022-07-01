@@ -17,7 +17,7 @@ const App = () => {
               <p className='h3 fw-bold text-success'>
                 ReactJS &bull; TypeScript &bull; Bootstrap
               </p>
-              <p className='fst-italic'>
+              <p className='fst-italic text-success'>
                 A practical use of ReactJS, TypeScript &amp;
                 Bootstrap.
               </p>
@@ -41,12 +41,12 @@ const App = () => {
           </div>*/}
 
           <div className='row'>
-            <div className='col'>
+            <div className='col text-success'>
               <Employee />
             </div>
           </div>
           <div className='row'>
-            <div className='col'>
+            <div className='col text-success'>
               {/*<EmployeeClass name={'Jessica Jameson'} age={31} title={'Web Designer'}  />*/}
               <EmployeeClass />
             </div>

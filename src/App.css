@@ -1,10 +1,18 @@
-/* body {
+ body {
   margin-top: 10px;
-  background-color: rgb(157, 157, 157);
-} */
+  background-color: #2E3436 !important;
+}
+
+ .logo {
+   color: forestgreen;
+ }
 
 .heading-content {
   margin-top: 10px;
   text-align: center;
   width: 100%;
+}
+
+.heading-content i {
+  color: #5CB85C;
 }
