@@ -1,10 +1,25 @@
-/* body {
-  margin-top: 10px;
-  background-color: rgb(157, 157, 157);
-} */
+ body {
+     height: 100vh;
+     margin-top: 10px;
+     background-image: url("./img/bg/bg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+  /*background-color: #2E3436 !important;*/
+}
+
+ .logo {
+     color: forestgreen !important;
+ }
 
 .heading-content {
-  margin-top: 10px;
-  text-align: center;
-  width: 100%;
+    color: #5bc0de !important;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.list-group-item {
+    color: #5bc0de;
+    border-color: #5cb85c;
+    background-color: #191919 !important;
 }
