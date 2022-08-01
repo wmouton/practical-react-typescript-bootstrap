@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Counter from "./components/Counter/Counter";
 // import Employee from './components/Company/Employee/Employee';
 // import { EmployeeClass } from "./components/EmployeeClass/EmployeeClass";
 // import Customer from './components/Company/Customer/Customer';
@@ -27,6 +28,12 @@ const App = () => {
             </div>
           </div>
           <br/>
+
+          <div className='row'>
+            <div className='col'>
+              <Counter />
+            </div>
+          </div>
 
           {/*<div className='row'>
             <div className='col'>
