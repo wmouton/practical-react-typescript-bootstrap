@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Employee from './components/Company/Employee/Employee';
-import { EmployeeClass } from "./components/EmployeeClass/EmployeeClass";
+// import Employee from './components/Company/Employee/Employee';
+import Counter from './components/Counter/Counter';
+// import { EmployeeClass } from "./components/EmployeeClass/EmployeeClass";
 // import Customer from './components/Company/Customer/Customer';
 // import { CustomerClass } from './components/Company/CustomerClass/CustomerClass';
 
@@ -28,6 +29,11 @@ const App = () => {
 
             </div>
           </div>
+          <div className='row'>
+            <div className='col'>
+              <Counter />
+            </div>
+          </div>
 
           {/*<div className='row'>
             <div className='col'>
@@ -40,17 +46,17 @@ const App = () => {
             </div>
           </div>*/}
 
-          <div className='row'>
+          {/* <div className='row'>
             <div className='col text-success'>
               <Employee />
             </div>
           </div>
           <div className='row'>
             <div className='col text-success'>
-              {/*<EmployeeClass name={'Jessica Jameson'} age={31} title={'Web Designer'}  />*/}
+              <EmployeeClass name={'Jessica Jameson'} age={31} title={'Web Designer'}  />
               <EmployeeClass />
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>
